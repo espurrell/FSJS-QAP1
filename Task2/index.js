@@ -1,0 +1,31 @@
+const chalk = require('chalk');
+
+const orange = chalk.hex ('#FFA500');
+const yellow1 = chalk.hex ('#FFFF00');
+const purple = chalk.hex ('#4b0082');
+
+console.log(chalk.red("Somewhere over the rainbow")); 
+console.log(chalk.red("Way up high"));
+console.log(chalk.red("There's a land that I heard of"));
+console.log(chalk.red("Once in a lullaby"));
+console.log();
+console.log(orange.bold('Somewhere over the rainbow'));
+console.log(orange.bold('Skies are blue'));
+console.log(orange.bold('And the dreams that you dare to dream'));
+console.log(orange.bold('Really do come true'));
+console.log();   
+console.log(yellow1.underline("Someday I'll wish upon a star"));
+console.log(yellow1.underline("And wake up where the clouds are far"));
+console.log(yellow1.underline("Behind me"));
+console.log(chalk.green.italic("Where troubles melt like lemon drops"));
+console.log(chalk.green.italic("Away above the chimney tops"));
+console.log(chalk.green.italic("That's where you'll find me"));
+console.log();
+console.log(chalk.bgWhite.blue("Somewhere over the rainbow"));
+console.log(chalk.bgWhite.blue("Bluebirds fly"));
+console.log(chalk.bgWhite.blue("Birds fly over the rainbow"));
+console.log(chalk.bgWhite.blue("Why then, oh why can't I?"));
+console.log();
+console.log(purple("If happy little bluebirds fly")); 
+console.log(purple("Beyond the rainbow"));   
+console.log(purple("Why, oh why can't I?"));
